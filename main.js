@@ -71,7 +71,7 @@ const creacionCarrito = () => {
         seguirComprando = confirm("Quieres seguir comprando?")
 
     } while (seguirComprando)
-}     
+}    
 creacionCarrito()
 console.log(carrito)
 
@@ -90,5 +90,5 @@ let impuesto = CalcularImpuesto ()
 console.log (impuesto)
 
 let total = calcularTotal ()
-alert ("El costo total neto de tu pedido es de:"+"\n"+"$ " +totalNeto+ "\n" +"Iva: $" +impuesto +"\n"+"El gran total de su compra es: $" +total+ "\n\n" +"Muchas gracias por tu compra, vuelve pronto")
+alert ("El costo total neto de tu pedido es de:"+"\n"+"$ " +totalNeto+ "\n" +"IVA: $" +impuesto+ "\n"+"Envio: $" +envio+ "\n\n"+ "El gran total de su compra es: $" +total+ "\n\n" +"Muchas gracias por tu compra, vuelve pronto")
 
